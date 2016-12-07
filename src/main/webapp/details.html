@@ -32,7 +32,6 @@
 	
 	<script src='https://unpkg.com/@watson-virtual-agent/chat-widget@1.2.10/dist/chat.min.js'></script>
 	
-
   </head>
 
   <body>
@@ -53,47 +52,43 @@
           
 		  <div class="inner-container">
 	          <div class="inner cover" >
-			  	<br><br>
+			  
+			  	<br>
+			  	<div class="row">
+			  		<div class="col-xs-4 col-md-4" align="left">
+			  			<h2 class="cover-header">Immunology></h2>
+			  		</div>
+			  		<div class="col-xs-4 col-md-4" align="left">
+			  			<h2 class="cover-text">Tussionex®</h2>
+			  		</div>
+			  	</div>
+			  	
+			  	<br>
+			  	<div class="row">
+			  		<div class="col-lg-12">
+				  		<nav class="navbar navbar-default">
+						  <div class="container-fluid">
+						    <div class="navbar-header">
+						    	<ul class="nav navbar-nav">
+	       							<li class="active"><a href="#">Description <span class="sr-only">(current)</span></a></li>
+	        						<li><a href="#">Clinical Trials</a></li>
+	        						<li><a href="#">Indication & Usage</a></li>
+	        					</ul>
+						    </div>
+						  </div>
+						</nav>
+					</div>
+			  	</div>
+			  	
 				<div class="row">
 					<div class="col-lg-12">
-						<div class="row div-align">
-							<h1 class="cover-header">Search Information on</h1>
-						</div>
-						<br> 	
-						<div class="row div-align">
-							<div class="col-lg-4 div-align">
-								<h4 class="cover-header">Immunology</h4>
-							</div>
-							<div class="col-lg-6">
-								<select class="form-control div-align">
-								  <option selected>select the product</option>
-								  <option>TUSSIONEX</option>
-								  <option>CIMZIA</option>
-								  <option>XYZAL</option>
-								  <option>Zyrtec</option>
-								  <option>LORTAB</option>								  							   
-								</select>
-							</div>
-						</div>
-						
-						<div class="row">
-							<div class="col-lg-4">
-								<h4 class="cover-header">Neurology</h4>
-							</div>
-							<div class="col-lg-6">
-								<select class="form-control">
-									  <option selected>select the product</option>
-									  <option>BRIVIATA</option>
-									  <option>VIMPAT</option>
-									  <option>NEWPRO</option>
-									  <option>KEPPRA</option>
-									  <option>METADATE</option>
-									  <option>NOOTROPIL</option>
-									  <option>XYREM</option>
-								</select>
-							</div>
-						</div>
-							
+						<p class="normal-text">Each 5 mL of TUSSIONEX Pennkinetic Extended Release Suspension contains
+							hydrocodone polistirex equivalent to 10 mg of hydrocodone bitartrate and
+							chlorpheniramine polistirex equivalent to 8 mg of chlorpheniramine maleate.
+							Hydrocodone is a centrally-acting narcotic antitussive. Chlorpheniramine is an
+							antihistamine. TUSSIONEX Pennkinetic Extended-Release Suspension is for oral use
+							only.
+						</p>
 					</div>
 					
 					<div class="col-lg-4" id="ibm_chat_root" style="height: 100%; width: 340px; position: fixed; right: 300px; bottom: 100px; max-height: 465px;">
@@ -126,12 +121,6 @@
 		XIBMClientID: '2c40169f-6abc-49b2-a029-6ec94ed2ee89',
 		XIBMClientSecret: 'Q1pP6tD5lE4mU2vJ1iJ0oI1wM1kV5nR6cF5rI8pL7eD6kX5kG1'
 	  });
-	  
-		$('select').on('change', function()
-				{
-				    alert("updated" );
-				    window.location = "details.html";
-		});
 	</script>
 	
   </body>
